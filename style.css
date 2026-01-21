@@ -141,6 +141,66 @@
     background-color: #7C4EE4;
     color: white;
 }
+.text-purple {
+    color: #7c4dff !important;
+}
+
+.border-purple {
+    border-color: #7c4dff !important;
+}
+
+.x-small {
+    font-size: 0.75rem;
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+
+.text-purple:hover {
+    color: #512da8 !important;
+    opacity: 0.8;
+}
+.newsletter-section {
+    background-color: #7c4dff; /* Match the purple from Figma */
+    border-radius: 0; /* Adjust if it needs to be inside a container with radius */
+}
+
+.newsletter-form .form-control {
+    border-radius: 10px 0 0 10px !important;
+    height: 55px;
+    border: none;
+}
+
+.btn-purple-dark {
+    background-color: #651fff;
+    color: white;
+    border-radius: 0 10px 10px 0 !important;
+    font-weight: 500;
+}
+
+/* Footer Custom Styles */
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: #7c4dff;
+    color: white !important;
+    border-radius: 50%;
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.footer-logo img {
+    /* Filters to make logo purple if it's a black icon */
+    filter: invert(36%) sepia(87%) saturate(2972%) hue-rotate(244deg) brightness(101%) contrast(101%);
+}
 
 
 @media (max-width: 768px) {
